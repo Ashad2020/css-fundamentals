@@ -30,9 +30,9 @@ p {
 .button {
   background: #ffe600;
   color: black;
-  padding: 20px;
   display: inline-block;
   margin-bottom: 50px;
+  padding: 15px 30px;
 }
 
 .button:hover {
