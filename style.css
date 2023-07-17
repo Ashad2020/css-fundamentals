@@ -75,4 +75,12 @@ a:link {
  - a:focus
  - a:hover
   - a:active
+
+
+
+  Make sure when styling links, people know that you can interact with them: It should be very obvious
+
+  - change the color on hover and focus 
+  - leave the text-decoration on, or, it you turn it off, make sure obvious that it's a link!
+  - remember to also include styles for :focus 
  */
