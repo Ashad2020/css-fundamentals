@@ -33,6 +33,10 @@ strong {
   /* margin-top: 50px; */
   /* padding-top: 50px; */
 }
+
+.accent-color {
+  color: yellow;
+}
 /* 
  Block level elements will create a new line of content, stacking on top of each other by default
  paragraphs 
