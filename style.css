@@ -37,6 +37,12 @@ strong {
 .accent-color {
   color: yellow;
 }
+
+.button {
+  background: #ffe600;
+  color: black;
+  padding: 60px;
+}
 /* 
  Block level elements will create a new line of content, stacking on top of each other by default
  paragraphs 
@@ -65,3 +71,10 @@ strong {
    - They will only repect margin, padding, and borders which are placed on the left or the right side, and not the top and bottom.
    - height an width set kora jay nah
 */
+
+/* Inline-block
+
+Sometimes we need something which can stay inline, but which we can set margins and padding on.
+
+display:inline-block;
+ */
