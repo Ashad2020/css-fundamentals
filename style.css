@@ -17,7 +17,7 @@ h1 {
 p {
   font-size: 18px;
 }
-/* default margin is equal to font size */
+
 .links {
   margin-top: 40px;
   margin-bottom: 0;
@@ -40,3 +40,17 @@ p {
 .button:hover {
   background: #ffe699;
 }
+
+/* specificity
+
+This is one of the reasons many class naming conventions only use classes
+
+If you understand specificity, you can get away with other ways of approaching things, but sometimes it complicates matters in the long run for nothing.
+
+*/
+
+/* Here is how I generally approach styling things 
+ - General rules get put on element selectors  e.g body, headings, paragraphs etc.
+ - Everything else gets a class.
+
+ */
