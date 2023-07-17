@@ -42,6 +42,7 @@ strong {
   background: #ffe600;
   color: black;
   padding: 60px;
+  display: inline-block;
 }
 /* 
  Block level elements will create a new line of content, stacking on top of each other by default
