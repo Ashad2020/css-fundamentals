@@ -34,16 +34,18 @@ header {
   background: black;
   color: white;
 }
-
-.section-two a {
+/* .section-two a {
   color: black;
-}
-
-.btn {
+}  avoid uses of compound selectors*/
+.btn-yellow {
   display: inline-block;
   padding: 5px 10px;
   background: #ffe600;
+  color: #333;
 }
-.section-one .btn {
-  color: black;
+.btn-black {
+  display: inline-block;
+  background: black;
+  padding: 5px 10px;
+  color: #fff;
 }
