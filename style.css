@@ -23,17 +23,41 @@ p {
   margin-bottom: 0;
 }
 
-/* margin and padding
+strong {
+  background: yellow;
+  color: black;
 
-for consistency, often we "turn off" the margin-top on typography related elements.
+  /* width: 50px; */
+  /* height: 200px; */
 
-Thay way we can use padding on the parent, and know the exact spacing that we'll have, and can keep all sides consistent.
-
-Also, when we get into layouts with flexbox and grid, margins no longer collapse, so this helps us stay more consistent.
-
-That could be painful, but we can include all the elements in one selector!
-
-h1, h2, h3, p {
-  margin-top:0;
+  /* margin-top: 50px; */
+  /* padding-top: 50px; */
 }
- */
+/* 
+ Block level elements will create a new line of content, stacking on top of each other by default
+ paragraphs 
+ heading 
+ lists and list items 
+ div
+ header footer main setion and layout related once
+ default width: 100%;
+ default height: 0 but the grow in height according to the content is inside of them.
+  */
+
+/* 
+  Inline elements 
+
+  Inline elements stay within the flow of what's around them.
+  links 
+  strond 
+  em
+  span 
+  images(sort of special case said by kevinn powel)
+   */
+
+/* 
+   There are some importand things to know about inline elements: 
+   - you can only nest other inline elements in them ( such as putting a link inside a strong element)
+   - They will only repect margin, padding, and borders which are placed on the left or the right side, and not the top and bottom.
+   - height an width set kora jay nah
+*/
