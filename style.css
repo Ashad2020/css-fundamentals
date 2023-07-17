@@ -3,6 +3,12 @@
   color: white;
   width: 560px;
   margin: 0 auto;
+  padding: 45px;
+}
+
+h1,
+p {
+  margin-top: 0;
 }
 
 h1 {
@@ -14,4 +20,20 @@ p {
 /* default margin is equal to font size */
 .links {
   margin-top: 40px;
+  margin-bottom: 0;
 }
+
+/* margin and padding
+
+for consistency, often we "turn off" the margin-top on typography related elements.
+
+Thay way we can use padding on the parent, and know the exact spacing that we'll have, and can keep all sides consistent.
+
+Also, when we get into layouts with flexbox and grid, margins no longer collapse, so this helps us stay more consistent.
+
+That could be painful, but we can include all the elements in one selector!
+
+h1, h2, h3, p {
+  margin-top:0;
+}
+ */
