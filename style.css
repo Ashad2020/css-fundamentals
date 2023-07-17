@@ -23,17 +23,6 @@ p {
   margin-bottom: 0;
 }
 
-strong {
-  background: yellow;
-  color: black;
-
-  /* width: 50px; */
-  /* height: 200px; */
-
-  /* margin-top: 50px; */
-  /* padding-top: 50px; */
-}
-
 .accent-color {
   color: yellow;
 }
@@ -41,41 +30,11 @@ strong {
 .button {
   background: #ffe600;
   color: black;
-  padding: 60px;
+  padding: 20px;
   display: inline-block;
+  margin-bottom: 50px;
 }
-/* 
- Block level elements will create a new line of content, stacking on top of each other by default
- paragraphs 
- heading 
- lists and list items 
- div
- header footer main setion and layout related once
- default width: 100%;
- default height: 0 but the grow in height according to the content is inside of them.
-  */
 
-/* 
-  Inline elements 
-
-  Inline elements stay within the flow of what's around them.
-  links 
-  strond 
-  em
-  span 
-  images(sort of special case said by kevinn powel)
-   */
-
-/* 
-   There are some importand things to know about inline elements: 
-   - you can only nest other inline elements in them ( such as putting a link inside a strong element)
-   - They will only repect margin, padding, and borders which are placed on the left or the right side, and not the top and bottom.
-   - height an width set kora jay nah
-*/
-
-/* Inline-block
-
-Sometimes we need something which can stay inline, but which we can set margins and padding on.
-
-display:inline-block;
- */
+.button:hover {
+  background: #ffe699;
+}
